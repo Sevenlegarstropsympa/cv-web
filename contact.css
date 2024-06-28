@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Barlow';
+}
+
+.header{
+	width: 80%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+.menubar .menu li a{
+	font-size: 21px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	transition: all 0.5s;
+}
+
+.menubar .menu li{
+	margin: 0 20px;
+}
+
+.menubar .menu li a:hover{
+	color: #F70000;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.header {
+	background-color: #272626;
+}
+
+.header .logo a{
+	font-size: 35px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.header .logo a span{
+	color: #F70000;
+	font-size: 45px;
+}
+
+.contact {
+	background-color: #272626;
+}
+
+.contact .row-flex {
+	margin: 60px 0 90px;
+	justify-content: space-between;
+}
+
+.contact .row-flex .col {
+	padding: 0 10px;
+}
+
+.contact .row-flex .col p{
+	margin-bottom: 10px;
+	color: #7a7a7a;
+}
+
+.contact .row-flex .col p i{
+	margin-right: 10px;
+}
+
+.contact form input{
+	width: 95%;
+	height: 45px;
+	margin-bottom: 20px;
+	padding: 0 15px;
+	border: 1px solid #bfbfbf;
+	outline: none;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 50%; /* Réduisez la largeur pour laisser de l'espace autour */
+    margin: 0 auto 20px auto; /* Centrage et espace vertical */
+    padding: 0 15px;
+    border: 1px solid #bfbfbf;
+    outline: none;
+    display: block; /* Assurez-vous que les éléments sont de niveau bloc */
+}
+
+.contact form textarea {
+	padding: 15px;
+	width: 50%;
+	height: 150px;
+	border: 1px solid #bfbfbf;
+	outline: none;
+	resize: none;
+}
+
+.contact form button {
+    width: 20%; /* Alignement avec les champs de saisie */
+    margin: 0 auto 20px auto; /* Centrage et espace vertical */
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    background: #333;
+    display: block; /* Assurez que le bouton est de niveau bloc */
+    transition: 0.2s;
+}
+
+.contact form button:hover {
+	background: #525252;
+}
+
+.quick-links{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	color: #fff;
+	background-color: #272626;
+}
+
+.quick-links ul{
+	margin: 60px auto;
+	text-align: center;
+}
+
+.quick-links ul li{
+	margin: 0 50px;
+	cursor: pointer;
+}
+
+.quick-links ul li i{
+	font-size: 30px;
+	color: #F70000;
+}
+
+.quick-links ul li p{
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+.social-box{
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+	width: 24px;
+}
+
+.social-box a{
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #bbb;
+	transition: all 0.5s;
+}
+
+.social-box a:hover{
+	color: #F70000;
+}
+
+.follow-label{
+	position: absolute;
+	bottom: 100%;
+	right: 0;
+	color: #bbb;
+	font-size: 19px;
+	line-height: 24px;
+	height: 24px;
+	padding-right: 75px;
+	white-space: nowrap;
+	transform-origin: 100% 0;
+	text-align: right;
+	transform: rotate(90deg);
+}
+
+.follow-label:after{
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 50px;
+	height: 1px;
+	background: #F70000;
+}
+
+body{
+	background-color:#272626;
+}
+
+.details {
+	margin: 30px;
+}
